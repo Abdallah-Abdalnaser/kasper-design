@@ -480,7 +480,7 @@ header .contener nav .icon:hover span:last-child {
     cursor: pointer;
 }
 
-.portifolio .contener ul li:first-child {
+.portifolio .contener ul .active {
     background-color: var(--main-color);
     color: white;
 }
