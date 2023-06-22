@@ -1,12 +1,12 @@
 
 let slider = <HTMLElement>document.querySelector(".landing"),
-sliderImage:string[]=["../image/landing2.jpg","../image/landing.jpg","../image/landing3.jpg"],
+sliderImage:string[]=["image/landing2.jpg","image/landing.jpg","image/landing3.jpg"],
 btn:Element[]=Array.from(document.querySelectorAll(".landing ul li") as NodeListOf<Element>),
 next =<HTMLElement>document.querySelector(".landing i:last-of-type"),
 back =<HTMLElement>document.querySelector(".landing i:first-of-type"),
 liArray:Element[] = Array.from(document.querySelectorAll(".portifolio .contener ul li") as NodeListOf<Element>),
 cardArray:Element[] = Array.from(document.querySelectorAll(".portifolio .galare .card") as NodeListOf<Element>);
-slider.style.cssText=`background-image: url(../image/landing2.jpg)`
+slider.style.cssText="background-image: url(image/landing2.jpg)";
 let place:number=0;
 function moveNext():void {
   if (place < sliderImage.length-1) {
