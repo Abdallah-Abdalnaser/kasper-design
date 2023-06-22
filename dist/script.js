@@ -1,6 +1,6 @@
 "use strict";
-let slider = document.querySelector(".landing"), sliderImage = ["../image/landing2.jpg", "../image/landing.jpg", "../image/landing3.jpg"], btn = Array.from(document.querySelectorAll(".landing ul li")), next = document.querySelector(".landing i:last-of-type"), back = document.querySelector(".landing i:first-of-type"), liArray = Array.from(document.querySelectorAll(".portifolio .contener ul li")), cardArray = Array.from(document.querySelectorAll(".portifolio .galare .card"));
-slider.style.cssText = `background-image: url(../image/landing2.jpg)`;
+let slider = document.querySelector(".landing"), sliderImage = ["image/landing2.jpg", "image/landing.jpg", "image/landing3.jpg"], btn = Array.from(document.querySelectorAll(".landing ul li")), next = document.querySelector(".landing i:last-of-type"), back = document.querySelector(".landing i:first-of-type"), liArray = Array.from(document.querySelectorAll(".portifolio .contener ul li")), cardArray = Array.from(document.querySelectorAll(".portifolio .galare .card"));
+slider.style.cssText = "background-image: url(image/landing2.jpg)";
 let place = 0;
 function moveNext() {
     if (place < sliderImage.length - 1) {
